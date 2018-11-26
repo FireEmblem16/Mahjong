@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE92F08D-D896-4231-A933-E30D5E45FF10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Engine</RootNamespace>
+    <AssemblyName>Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cards\Card.cs" />
+    <Compile Include="Cards\CardTypes\CardSuit.cs" />
+    <Compile Include="Cards\CardTypes\CardValue.cs" />
+    <Compile Include="Cards\CardTypes\StandardCard.cs" />
+    <Compile Include="Cards\CardTypes\Suits\BlackSuit.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Clubs.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Dimonds.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Hearts.cs" />
+    <Compile Include="Cards\CardTypes\Suits\RedSuit.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Spades.cs" />
+    <Compile Include="Cards\CardTypes\Values\ComplexValue.cs" />
+    <Compile Include="Cards\CardTypes\Values\ValueN.cs" />
+    <Compile Include="Cards\Deck.cs" />
+    <Compile Include="Cards\DeckTypes\MultiDeck.cs" />
+    <Compile Include="Cards\DeckTypes\StandardDeck.cs" />
+    <Compile Include="Cards\Hand.cs" />
+    <Compile Include="Cards\Hands\StandardHand.cs" />
+    <Compile Include="Exceptions\CardNotInDeckException.cs" />
+    <Compile Include="Exceptions\OutOfCardsException.cs" />
+    <Compile Include="Game\GameOptions.cs" />
+    <Compile Include="Game\GameState.cs" />
+    <Compile Include="Graphics\IDrawable.cs" />
+    <Compile Include="Graphics\Menu.cs" />
+    <Compile Include="Graphics\MessageBox.cs" />
+    <Compile Include="Graphics\Window.cs" />
+    <Compile Include="Player\AI\ABP\AlphaBetaPruner.cs" />
+    <Compile Include="Player\AI\ABPG\AlphaBetaPruner.cs" />
+    <Compile Include="Player\AI\ABPG\StandardEnumerator.cs" />
+    <Compile Include="Player\AI\AIBehavior.cs" />
+    <Compile Include="Player\AI\AIPlayer.cs" />
+    <Compile Include="Player\AI\DecisionTree\Condition.cs" />
+    <Compile Include="Player\AI\DecisionTree\Negator.cs" />
+    <Compile Include="Player\AI\DecisionTree\Node.cs" />
+    <Compile Include="Player\AI\DecisionTree\Randomizer.cs" />
+    <Compile Include="Player\AI\DecisionTree\Selector.cs" />
+    <Compile Include="Player\AI\DecisionTree\Sequencer.cs" />
+    <Compile Include="Player\AI\DecisionTree\Thinker.cs" />
+    <Compile Include="Player\AI\StandardAI.cs" />
+    <Compile Include="Player\Move.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Player\StandardPlayer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\Pair.cs" />
+    <Compile Include="Utility\Rectangle.cs" />
+    <Compile Include="Utility\Scanner.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

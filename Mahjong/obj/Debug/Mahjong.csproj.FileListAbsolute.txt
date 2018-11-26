@@ -1,0 +1,6 @@
+c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\Mahjong.exe.config
+c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\Mahjong.exe
+c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\Mahjong.pdb
+c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\obj\Debug\Mahjong.csprojResolveAssemblyReference.cache
+c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\obj\Debug\Mahjong.exe
+c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\obj\Debug\Mahjong.pdb
