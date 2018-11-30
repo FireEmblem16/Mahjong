@@ -4,3 +4,5 @@ c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\M
 c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\obj\Debug\Mahjong.csprojResolveAssemblyReference.cache
 c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\obj\Debug\Mahjong.exe
 c:\users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\obj\Debug\Mahjong.pdb
+C:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\Engine.dll
+C:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\Engine.pdb

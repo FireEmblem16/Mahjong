@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Engine.Cards;
+using Engine.Cards.DeckTypes;
 
 namespace Mahjong
 {
@@ -10,7 +8,10 @@ namespace Mahjong
 	{
 		public static void Main(string[] args)
 		{
+			Deck d = new MahjongDeck();
+			Console.Out.WriteLine(d);
 
+			return;
 		}
 	}
 }

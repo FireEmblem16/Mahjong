@@ -48,11 +48,16 @@
     <Compile Include="Cards\CardTypes\Suits\Clubs.cs" />
     <Compile Include="Cards\CardTypes\Suits\Dimonds.cs" />
     <Compile Include="Cards\CardTypes\Suits\Hearts.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Mahjong\BonusSuit.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Mahjong\HonourSuit.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Mahjong\BasicSuit.cs" />
+    <Compile Include="Cards\CardTypes\Suits\Mahjong\SimpleSuit.cs" />
     <Compile Include="Cards\CardTypes\Suits\RedSuit.cs" />
     <Compile Include="Cards\CardTypes\Suits\Spades.cs" />
     <Compile Include="Cards\CardTypes\Values\ComplexValue.cs" />
     <Compile Include="Cards\CardTypes\Values\ValueN.cs" />
     <Compile Include="Cards\Deck.cs" />
+    <Compile Include="Cards\DeckTypes\MahjongDeck.cs" />
     <Compile Include="Cards\DeckTypes\MultiDeck.cs" />
     <Compile Include="Cards\DeckTypes\StandardDeck.cs" />
     <Compile Include="Cards\Hand.cs" />

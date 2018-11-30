@@ -37,6 +37,15 @@ namespace Engine.Cards.DeckTypes
 		}
 
 		/// <summary>
+		/// The name of the deck.
+		/// </summary>
+		public override string DeckName
+		{
+			get
+			{return NumberOfDecks + "-multi Deck";}
+		}
+
+		/// <summary>
 		/// The number of copies of the standard deck this deck was created with.
 		/// </summary>
 		public uint NumberOfDecks

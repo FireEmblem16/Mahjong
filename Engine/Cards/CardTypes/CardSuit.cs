@@ -51,13 +51,28 @@
 		HEART = 0x02,
 		CLUB = 0x04,
 		DIMOND = 0x08,
+
 		SUIT_5 = 0x10,
 		SUIT_6 = 0x20,
 		SUIT_7 = 0x40,
 		SUIT_8 = 0x80,
 
 		// Mahjong suits
-		BAMBOO = 0x01
+		BAMBOO = 0x001,
+		CHARACTER = 0x002,
+		DOT = 0x004,
+
+		WHITE_DRAGON = 0x008,
+		GREEN_DRAGON = 0x010,
+		RED_DRAGON = 0x020,
+
+		EAST_WIND = 0x040,
+		SOUTH_WIND = 0x080,
+		WEST_WIND = 0x100,
+		NORTH_WIND = 0x200,
+
+		SEASON = 0x400,
+		FLOWER = 0x800
 	}
 
 	/// <summary>
@@ -74,7 +89,8 @@
 		SUIT_4 = 0x8,
 
 		// Mahjong tile types
-		SIMPLE = 0x7,
-		HONORS = 0x42
+		SIMPLE = 0x007,
+		HONOURS = 0x3F8,
+		BONUS = 0xC00
 	}
 }

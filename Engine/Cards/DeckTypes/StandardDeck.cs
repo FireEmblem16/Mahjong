@@ -372,12 +372,19 @@ namespace Engine.Cards.DeckTypes
 		}
 
 		/// <summary>
+		/// Returns a string that represents the contents of this deck.
+		/// </summary>
+		/// <returns></returns>
+		public override string ToString()
+		{return ToString(DeckStringFormat.DECK_CONTENTS);}
+
+		/// <summary>
 		/// Returns a string that represents this deck.
 		/// </summary>
 		/// <param name="format">The formatting to apply to the output string.</param>
 		/// <returns>Returns a string that represents this deck with the provided formatting options.</returns>
 		/// <exception cref="ArgumentException">Thrown when the provided format is invalid.</exception>
-		public string ToString(DeckStringFormat format = DeckStringFormat.DECK_CONTENTS)
+		public string ToString(DeckStringFormat format)
 		{
 			string ret = "";
 
@@ -607,7 +614,7 @@ namespace Engine.Cards.DeckTypes
 		/// <summary>
 		/// The name of the deck.
 		/// </summary>
-		public string DeckName
+		public virtual string DeckName
 		{
 			get
 			{return "Standard Deck";}
