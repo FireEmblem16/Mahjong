@@ -31,7 +31,7 @@ namespace Engine.Cards.DeckTypes
 			Shuffle();
 			return;
 		}
-
+		
 		/// <summary>
 		/// Shuffles the draw pile.
 		/// </summary>
@@ -42,7 +42,7 @@ namespace Engine.Cards.DeckTypes
 			{
 				Card temp = draw_pile[i];
 				int steal = rand.Next(0,draw_pile.Count - i) + i;
-
+				
 				draw_pile[i] = draw_pile[steal];
 				draw_pile[steal] = temp;
 			}
@@ -117,6 +117,26 @@ namespace Engine.Cards.DeckTypes
 		}
 
 		/// <summary>
+		/// Returns the given card to the appropriate position in the deck.
+		/// </summary>
+		/// <param name="c">The card to put back.</param>
+		/// <param name="top">If true, then the card will be put back on the top of the draw pile and at the bottom if false.</param>
+		/// <returns>Returns true if the card was missing and could be undrawn and false otherwise.</returns>
+		public bool Undraw(Card c, bool top = true)
+		{
+			if(c == null || missing_cards.FindLastIndex(cc => c.Equals(cc)) < 0)
+				return false;
+
+			if(top)
+				draw_pile.Add(c.Clone()); // The top of the pile is the end of the list
+			else
+				draw_pile.Insert(0,c.Clone());
+			
+			missing_cards.RemoveAt(missing_cards.FindLastIndex(cc => c.Equals(cc)));
+			return true;
+		}
+
+		/// <summary>
 		/// Draws a specified number of cards that remain in the draw pile.
 		/// </summary>
 		/// <param name="num">The number of cards to draw.</param>
@@ -177,7 +197,7 @@ namespace Engine.Cards.DeckTypes
 			missing_cards.Remove(c); // We don't care about order in missing cards so any one will do, including the first one
 			return;
 		}
-
+		
 		/// <summary>
 		/// Discards all the given cards.
 		/// </summary>

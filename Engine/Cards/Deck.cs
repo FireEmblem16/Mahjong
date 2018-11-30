@@ -36,6 +36,14 @@ namespace Engine.Cards
 		Card Draw(bool top = true);
 
 		/// <summary>
+		/// Returns the given card to the appropriate position in the deck.
+		/// </summary>
+		/// <param name="c">The card to put back.</param>
+		/// <param name="top">If true, then the card will be put back on the top of the draw pile and at the bottom if false.</param>
+		/// <returns>Returns true if the card was missing and could be undrawn and false otherwise.</returns>
+		bool Undraw(Card c, bool top = true);
+
+		/// <summary>
 		/// Draws a specified number of cards that remain in the draw pile.
 		/// </summary>
 		/// <param name="num">The number of cards to draw.</param>
