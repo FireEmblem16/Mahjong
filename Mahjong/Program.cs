@@ -1,6 +1,7 @@
 ﻿using System;
 using Engine.Cards;
 using Engine.Cards.DeckTypes;
+using Engine.Cards.Hands;
 
 namespace Mahjong
 {
@@ -8,18 +9,14 @@ namespace Mahjong
 	{
 		public static void Main(string[] args)
 		{
-			Deck d1 = new StandardDeck();
-			Console.WriteLine(d1.Draw());
-			Console.WriteLine(d1.Draw());
-			Console.WriteLine(d1.Draw());
+			Deck d = new MahjongDeck();
+			Hand h = new StandardHand();
 
-			Deck d2 = d1.Clone();
+			h.DrawCard(d.Deck[0]);
+			h.DrawCard(d.Deck[3]);
+			h.DrawCard(d.Deck[6]);
 
-			Console.WriteLine(d1.Draw());
-			Console.WriteLine(d1.Draw());
-
-			Console.WriteLine(d2.Draw());
-			Console.WriteLine(d2.Draw());
+			MahjongMeld m = new MahjongMeld(h.Cards);
 
 			return;
 		}

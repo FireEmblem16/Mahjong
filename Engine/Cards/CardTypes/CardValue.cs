@@ -49,6 +49,5 @@ namespace Engine.Cards.CardTypes
 		/// </summary>
 		double MaxSingleValue
 		{get;}
-
 	}
 }

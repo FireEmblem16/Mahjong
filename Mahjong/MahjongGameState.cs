@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Engine.Cards;
 using Engine.Cards.CardTypes;
 using Engine.Cards.DeckTypes;
+using Engine.Cards.Hands;
 using Engine.Game;
 using Engine.Player;
 using Engine.Player.AI;
@@ -29,11 +30,31 @@ namespace Mahjong
 			BonusHand = 0;
 
 			// Create the players
+			ActivePlayer = 0;
+
 			players = new Player<MahjongMove>[4];
 			player_moves = new MahjongMove[4];
+			
+			MahjongPlayer[] mp = new MahjongPlayer[4];
 
 			for(int i = 0;i < 4;i++)
+			{
 				players[i] = new MahjongHumanPlayer(new List<Card>(Deck.Draw(13)));
+				player_moves[i] = null;
+
+				mp[i] = players[i] as MahjongPlayer;
+				mp[i].Score = 0;
+				
+				// If a player has bonus tiles, we need to replace them
+
+			}
+			
+			// Set the initial seat winds
+			// Note that we don't need to randomise the seat winds; a user can just put the players in a different order if they want something different
+			mp[0].SeatWind = SuitIdentifier.EAST_WIND;
+			mp[1].SeatWind = SuitIdentifier.SOUTH_WIND;
+			mp[2].SeatWind = SuitIdentifier.WEST_WIND;
+			mp[3].SeatWind = SuitIdentifier.NORTH_WIND;
 
 			return;
 		}
@@ -45,6 +66,9 @@ namespace Mahjong
 		/// <returns>Returns true if the move is valid and false if it is not.</returns>
 		public bool ApplyMove(MahjongMove move)
 		{
+			if(!IsValid(move))
+				return false;
+
 
 			
 			return true;
@@ -70,7 +94,8 @@ namespace Mahjong
 		}
 
         /// <summary>
-		/// Gets the player with the specified index.
+		/// Gets the player with the specified index between 0 and 3 inclusive.
+		/// Note that the player returned will also be of type MahjongPlayer.
 		/// </summary>
 		/// <param name="index">The index to check. This value should be between zero and one less than the number of players.</param>
 		/// <returns>Returns the player at the specified index.</returns>
@@ -81,7 +106,7 @@ namespace Mahjong
 
 			return players[index];
 		}
-
+		
 		/// <summary>
 		/// If a player leaves the game then they are replaced with an AI player.
 		/// </summary>
@@ -93,7 +118,11 @@ namespace Mahjong
 			if(index < 0 || index > 4)
 				return;
 
+			MahjongPlayer old = players[index] as MahjongPlayer;
+
 			players[index] = new MahjongAIPlayer(players[index].CardsInHand.Cards,replacement);
+			(players[index] as MahjongPlayer).CopyData(old);
+
 			return;
 		}
 
@@ -108,7 +137,11 @@ namespace Mahjong
 			if(index < 0 || index > 4 || !players[index].IsAI)
 				return false;
 
+			MahjongPlayer old = players[index] as MahjongPlayer;
+
 			players[index] = new MahjongHumanPlayer(players[index].CardsInHand.Cards);
+			(players[index] as MahjongPlayer).CopyData(old);
+			
 			return true;
 		}
 
@@ -120,7 +153,18 @@ namespace Mahjong
 		{
 			MahjongGameState ret = new MahjongGameState();
 
+			ret.ActivePlayer = ActivePlayer;
+			ret.Deck = Deck.Clone();
 
+			ret.Round = Round;
+			ret.Hand = Hand;
+			ret.BonusHand = BonusHand;
+
+			for(int i = 0;i < 4;i++)
+			{
+				ret.players[i] = players[i].Clone();
+				ret.player_moves[i] = player_moves[i].Clone();
+			}
 
 			return ret;
 		}
@@ -158,17 +202,16 @@ namespace Mahjong
 		}
 
 		/// <summary>
+		/// If true, then the last hand is over and a new hand has started. At all other times, this is false.
+		/// </summary>
+		public bool HandFinished
+		{get; protected set;}
+		
+		/// <summary>
 		/// If true then the game is over.
 		/// </summary>
 		public bool GameFinished
-		{
-			get
-			{
-
-
-				return false;
-			}
-		}
+		{get; protected set;}
 
 		/// <summary>
 		/// The set of tiles.
@@ -220,6 +263,7 @@ namespace Mahjong
 
 		/// <summary>
 		/// The players in the game.
+		/// Note that anything that might be in here will be a MahjongPlayer as well.
 		/// </summary>
 		protected Player<MahjongMove>[] players;
 
