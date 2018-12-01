@@ -10,6 +10,11 @@ namespace Engine.Cards
 	public interface Deck
 	{
 		/// <summary>
+		/// Clones the deck.
+		/// </summary>
+		Deck Clone();
+
+		/// <summary>
 		/// Shuffles the draw pile.
 		/// </summary>
 		void Shuffle();

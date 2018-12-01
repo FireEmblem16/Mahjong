@@ -87,29 +87,5 @@ namespace Engine.Game
 		/// </summary>
 		bool GameFinished
 		{get;}
-
-		/// <summary>
-		/// Fired when this game state changes.
-		/// </summary>
-		event GameStateChanged<M> StateChanged;
-
-		/// <summary>
-		/// Fired when this game state reaches a finish state.
-		/// </summary>
-		event GameOver<M> Finished;
 	}
-
-	/// <summary>
-	/// An event fired on game state changes.
-	/// </summary>
-	/// <param name="state">The state that changed.</param>
-	/// <param name="m">The last move or null if the state change was not move related.</param>
-	/// <param name="undo">If true then the move provided has been undone.</param>
-	public delegate void GameStateChanged<M>(GameState<M> state, M m, bool undo = false);
-
-	/// <summary>
-	/// An event fired when a game state reaches a finish state.
-	/// </summary>
-	/// <param name="state">The game state in its final state.</param>
-	public delegate void GameOver<M>(GameState<M> state);
 }

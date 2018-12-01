@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using Engine.Cards;
+using Engine.Cards.CardTypes;
+using Engine.Cards.DeckTypes;
 using Engine.Game;
 using Engine.Player;
 using Engine.Player.AI;
@@ -12,10 +16,24 @@ namespace Mahjong
 	{
 		/// <summary>
 		/// Creates a new game state.
+		/// All players default to human until replaced by an AI.
 		/// </summary>
 		public MahjongGameState()
 		{
+			// Create the deck
+			Deck = new MahjongDeck();
 
+			// Set up misc data
+			Round = 1;
+			Hand = 1;
+			BonusHand = 0;
+
+			// Create the players
+			players = new Player<MahjongMove>[4];
+			player_moves = new MahjongMove[4];
+
+			for(int i = 0;i < 4;i++)
+				players[i] = new MahjongHumanPlayer(new List<Card>(Deck.Draw(13)));
 
 			return;
 		}
@@ -28,7 +46,7 @@ namespace Mahjong
 		public bool ApplyMove(MahjongMove move)
 		{
 
-
+			
 			return true;
 		}
 
@@ -37,11 +55,7 @@ namespace Mahjong
 		/// </summary>
 		/// <returns>Returns true if the last move could be undone and false otherwise.</returns>
 		public bool UndoMove()
-		{
-
-
-			return true;
-		}
+		{throw new NotImplementedException();} // We don't need this here, so let's not bother
 
         /// <summary>
         /// Determines if the provided move is valid.
@@ -62,9 +76,10 @@ namespace Mahjong
 		/// <returns>Returns the player at the specified index.</returns>
 		public Player<MahjongMove> GetPlayer(int index)
 		{
+			if(index < 0 || index > 4)
+				return null;
 
-
-			return null;
+			return players[index];
 		}
 
 		/// <summary>
@@ -75,8 +90,10 @@ namespace Mahjong
 		/// <remarks>An AI player can leave the game to be replaced by a new AI player.</remarks>
 		public void PlayerLeft(int index, AIBehavior<MahjongMove> replacement = null)
 		{
+			if(index < 0 || index > 4)
+				return;
 
-
+			players[index] = new MahjongAIPlayer(players[index].CardsInHand.Cards,replacement);
 			return;
 		}
 
@@ -85,11 +102,13 @@ namespace Mahjong
 		/// </summary>
 		/// <param name="index">The index of the AI player to replace.</param>
 		/// <returns>Returns true if the player joined the game and false otherwise.</returns>
-		/// <remarks>Only AI players can be booted for a human player to join.</remarks>
+		/// <remarks>Only AI players can be booted for a human player to join. If you want to replace the AI behaviour indirectly, use PlayerLeft instead.</remarks>
 		public bool PlayerJoined(int index)
 		{
+			if(index < 0 || index > 4 || !players[index].IsAI)
+				return false;
 
-
+			players[index] = new MahjongHumanPlayer(players[index].CardsInHand.Cards);
 			return true;
 		}
 
@@ -99,9 +118,11 @@ namespace Mahjong
 		/// <returns>Returns a deep copy of this state.</returns>
 		public GameState<MahjongMove> Clone()
 		{
+			MahjongGameState ret = new MahjongGameState();
 
 
-			return null;
+
+			return ret;
 		}
 
 		/// <summary>
@@ -109,7 +130,7 @@ namespace Mahjong
 		/// </summary>
 		/// <returns>Returns the game state in string form.</returns>
 		public string Serialize()
-		{return "";} // This isn't a useful notion for the implementation of this game as we don't have networking
+		{throw new NotImplementedException();} // This isn't a useful notion for the implementation of this game as we don't have networking
 
 		/// <summary>
 		/// If true then play proceeds clockwise (or from low index to high index).
@@ -150,13 +171,61 @@ namespace Mahjong
 		}
 
 		/// <summary>
-		/// Fired when this game state changes.
+		/// The set of tiles.
 		/// </summary>
-		public event GameStateChanged<MahjongMove> StateChanged;
+		public Deck Deck
+		{get; protected set;}
 
 		/// <summary>
-		/// Fired when this game state reaches a finish state.
+		/// The current prevailing wind.
 		/// </summary>
-		public event GameOver<MahjongMove> Finished;
+		public SuitIdentifier PrevailingWind
+		{
+			get
+			{
+				switch(Round)
+				{
+				case 1:
+					return SuitIdentifier.EAST_WIND;
+				case 2:
+					return SuitIdentifier.SOUTH_WIND;
+				case 3:
+					return SuitIdentifier.WEST_WIND;
+				case 4:
+					return SuitIdentifier.NORTH_WIND;
+				}
+
+				return SuitIdentifier.EAST_WIND; // Should never happen
+			}
+		}
+		
+		/// <summary>
+		/// The current round number.
+		/// </summary>
+		public uint Round
+		{get; protected set;}
+
+		/// <summary>
+		/// The current hand number (without extra hands, there are 4 per round).
+		/// </summary>
+		public uint Hand
+		{get; protected set;}
+		
+		/// <summary>
+		/// The current bonus hand of the current East.
+		/// This value is 0 if gameplay is not currently in a bonus hand.
+		/// </summary>
+		public uint BonusHand
+		{get; protected set;}
+
+		/// <summary>
+		/// The players in the game.
+		/// </summary>
+		protected Player<MahjongMove>[] players;
+
+		/// <summary>
+		/// The current moves of the four players for the current trick/tile.
+		/// </summary>
+		protected MahjongMove[] player_moves;
 	}
 }

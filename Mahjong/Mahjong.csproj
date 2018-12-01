@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MahjongAIPlayer.cs" />
     <Compile Include="MahjongGameState.cs" />
     <Compile Include="MahjongMove.cs" />
+    <Compile Include="MahjongHumanPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

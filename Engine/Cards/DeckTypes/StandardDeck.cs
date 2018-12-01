@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using Engine.Cards.CardTypes;
 using Engine.Cards.CardTypes.Suits;
 using Engine.Cards.CardTypes.Values;
@@ -25,11 +24,55 @@ namespace Engine.Cards.DeckTypes
 			RefillDrawPile = refill_on_empty;
 			has_jokers = jokers;
 
+			// Setup the RNG
+			seed = DateTime.Now.Millisecond;
+			rand = new Random(seed);
+			rand_calls = 0;
+
 			deck.AddRange(CreateDeck());
 			draw_pile.AddRange(CreateDeck()); // Have deep copies everywhere in case we do something crazy; besides, they take very little memory
 			
 			Shuffle();
 			return;
+		}
+
+		/// <summary>
+		/// Clones the deck.
+		/// </summary>
+		public virtual Deck Clone()
+		{
+			StandardDeck ret = new StandardDeck(HasJokers,RefillDrawPile);
+			
+			ret.rand = new Random(seed);
+			ret.seed = seed;
+			ret.rand_calls = rand_calls;
+
+			for(uint i = 0;i < rand_calls;i++)
+				ret.rand.Next();
+			
+			if(last_discard == null)
+				ret.last_discard = null;
+			else
+				ret.last_discard = last_discard.Clone();
+
+			ret.deck.Clear();
+			ret.draw_pile.Clear();
+			ret.discard_pile.Clear();
+			ret.missing_cards.Clear();
+
+			foreach(Card c in deck)
+				ret.deck.Add(c.Clone());
+
+			foreach(Card c in draw_pile)
+				ret.draw_pile.Add(c.Clone());
+
+			foreach(Card c in discard_pile)
+				ret.discard_pile.Add(c.Clone());
+
+			foreach(Card c in missing_cards)
+				ret.missing_cards.Add(c.Clone());
+
+			return ret;
 		}
 		
 		/// <summary>
@@ -42,7 +85,8 @@ namespace Engine.Cards.DeckTypes
 			{
 				Card temp = draw_pile[i];
 				int steal = rand.Next(0,draw_pile.Count - i) + i;
-				
+				rand_calls++; // Yes, this is painful, but we have no choice
+
 				draw_pile[i] = draw_pile[steal];
 				draw_pile[steal] = temp;
 			}
@@ -658,6 +702,16 @@ namespace Engine.Cards.DeckTypes
 		/// A random number generator for shuffling.
 		/// Pray to it.
 		/// </summary>
-		protected Random rand = new Random();
+		protected Random rand;
+
+		/// <summary>
+		/// The RNG seed.
+		/// </summary>
+		protected int seed;
+
+		/// <summary>
+		/// The number of times the RNG has been used.
+		/// </summary>
+		protected uint rand_calls = 0;
 	}
 }

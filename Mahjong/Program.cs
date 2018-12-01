@@ -8,8 +8,18 @@ namespace Mahjong
 	{
 		public static void Main(string[] args)
 		{
-			Deck d = new MahjongDeck();
-			Console.Out.WriteLine(d);
+			Deck d1 = new StandardDeck();
+			Console.WriteLine(d1.Draw());
+			Console.WriteLine(d1.Draw());
+			Console.WriteLine(d1.Draw());
+
+			Deck d2 = d1.Clone();
+
+			Console.WriteLine(d1.Draw());
+			Console.WriteLine(d1.Draw());
+
+			Console.WriteLine(d2.Draw());
+			Console.WriteLine(d2.Draw());
 
 			return;
 		}
