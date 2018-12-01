@@ -23,6 +23,8 @@ namespace Mahjong
 		{
 			// Create the deck
 			Deck = new MahjongDeck();
+			
+			AvailableTile = null;
 
 			// Set up misc data
 			Round = 1;
@@ -31,6 +33,7 @@ namespace Mahjong
 
 			// Create the players
 			ActivePlayer = 0;
+			SubActivePlayer = 0;
 
 			players = new Player<MahjongMove>[4];
 			player_moves = new MahjongMove[4];
@@ -46,7 +49,13 @@ namespace Mahjong
 				mp[i].Score = 0;
 				
 				// If a player has bonus tiles, we need to replace them
-
+				for(int j = 0;j < 13;j++)
+					if(players[i].CardsInHand.Cards[j].Suit.Color == SuitColor.BONUS)
+					{
+						mp[i].BonusTiles.DrawCard(players[i].CardsInHand.PlayCard(j));
+						players[i].CardsInHand.DrawCard(Deck.Draw());
+						j--;
+					}
 			}
 			
 			// Set the initial seat winds
@@ -56,6 +65,16 @@ namespace Mahjong
 			mp[2].SeatWind = SuitIdentifier.WEST_WIND;
 			mp[3].SeatWind = SuitIdentifier.NORTH_WIND;
 
+			// Give east their first draw, and make sure the draw wasn't a bonus tile
+			Card c = Deck.Draw();
+
+			while(c.Suit.Color == SuitColor.BONUS)
+			{
+				mp[0].BonusTiles.DrawCard(c);
+				c = Deck.Draw();
+			}
+
+			players[0].CardsInHand.DrawCard(c);
 			return;
 		}
 		
@@ -66,11 +85,19 @@ namespace Mahjong
 		/// <returns>Returns true if the move is valid and false if it is not.</returns>
 		public bool ApplyMove(MahjongMove move)
 		{
+			// If the move is outright invalid, ignore it
 			if(!IsValid(move))
 				return false;
 
+			// Now add the move to our collection
 
+
+			// If we have all four sub moves ready, we can figure out which one (or ones, since the active player usually is discarding) takes priority
+
+
+			//
 			
+
 			return true;
 		}
 
@@ -88,9 +115,28 @@ namespace Mahjong
         /// <returns>Returns true if the move is valid and false otherwise.</returns>
         public bool IsValid(MahjongMove move)
 		{
+			// First check if the move obeys basic game mechancis
+			// The below aren't exhaustive, probably, but they do cover most scenarios
 
+			// The active player cannot pass
+			if(SubActivePlayer == ActivePlayer && move.Pass)
+				return false;
 
-			return true;
+			// Only the active player may discard, and if a meld is being made from the discard pile, it better use that tile
+			if(SubActivePlayer != ActivePlayer && (move.Discard || !move.Pass && !move.DiscardedTile.Equals(AvailableTile)))
+				return false;
+
+			// Only the player after the active player can chow unless it's to go out
+			if(move.Chow && SubActivePlayer != NextPlayer && !move.Mahjong)
+				return false;
+
+			// Eyes and special hands can only claim a discarded tile to go out
+			if(SubActivePlayer != ActivePlayer && move.Meld && !(move.Chow || move.Pung || move.Kong) && !move.Mahjong)
+				return false;
+
+			// Next check if the active player can actually perform the mvoe
+			Player<MahjongMove> temp = GetPlayer(SubActivePlayer).Clone();
+			return temp.MakePlay(move);
 		}
 
         /// <summary>
@@ -168,7 +214,7 @@ namespace Mahjong
 
 			return ret;
 		}
-
+		
 		/// <summary>
 		/// Serializes the game state.
 		/// </summary>
@@ -180,6 +226,7 @@ namespace Mahjong
 		/// If true then play proceeds clockwise (or from low index to high index).
 		/// If false then play proceeds counter-clockwise (or from high index to low index).
 		/// </summary>
+		/// <remarks>Without a visual representation of the game, this means nothing.</remarks>
 		public bool Clockwise
 		{
 			get
@@ -187,10 +234,44 @@ namespace Mahjong
 		}
 
 		/// <summary>
-		/// The index of the active player.
+		/// The index of the active player. This is the player who has drawn a tile and now needs to discard, go out, or declare a concealed kong.
 		/// </summary>
 		public int ActivePlayer
 		{get; protected set;}
+		
+		/// <summary>
+		/// The index of the player immediately after the active player (assuming a play order isn't interrupted).
+		/// </summary>
+		public int NextPlayer
+		{
+			get
+			{
+				if(ActivePlayer == 3)
+					return 0;
+				
+				return ActivePlayer++;
+			}
+		}
+
+		/// <summary>
+		/// The index of the player's whose move is being waited upon.
+		/// </summary>
+		public int SubActivePlayer
+		{get; protected set;}
+
+		/// <summary>
+		/// The index of the player immediately after the subactive player.
+		/// </summary>
+		public int NextSubActivePlayer
+		{
+			get
+			{
+				if(SubActivePlayer == 3)
+					return 0;
+				
+				return SubActivePlayer++;
+			}
+		}
 
 		/// <summary>
 		/// The number of participating players in this game state.
@@ -217,6 +298,12 @@ namespace Mahjong
 		/// The set of tiles.
 		/// </summary>
 		public Deck Deck
+		{get; protected set;}
+
+		/// <summary>
+		/// The tile that is currently being discarded or is available to be robbed from a kong
+		/// </summary>
+		public Card AvailableTile
 		{get; protected set;}
 
 		/// <summary>

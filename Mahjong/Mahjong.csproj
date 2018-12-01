@@ -49,6 +49,7 @@
     <Compile Include="MahjongMove.cs" />
     <Compile Include="MahjongHumanPlayer.cs" />
     <Compile Include="MahjongPlayer.cs" />
+    <Compile Include="MahjongStaticFunctions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

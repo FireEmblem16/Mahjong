@@ -42,6 +42,30 @@ namespace Mahjong
 		/// <param name="m">The move to undo.</param>
 		public override void UndoMove(MahjongMove m)
 		{throw new NotImplementedException();} // We don't need this here, so let's not bother
+		
+		/// <summary>
+		/// Causes the player's wind to shift to the next direction.
+		/// </summary>
+		public void RotateWind()
+		{
+			switch(SeatWind)
+			{
+			case SuitIdentifier.EAST_WIND:
+				SeatWind = SuitIdentifier.SOUTH_WIND;
+				break;
+			case SuitIdentifier.SOUTH_WIND:
+				SeatWind = SuitIdentifier.WEST_WIND;
+				break;
+			case SuitIdentifier.WEST_WIND:
+				SeatWind = SuitIdentifier.NORTH_WIND;
+				break;
+			case SuitIdentifier.NORTH_WIND:
+				SeatWind = SuitIdentifier.EAST_WIND;
+				break;
+			}
+
+			return;
+		}
 
 		/// <summary>
 		/// Creates a deep copy of this player.
@@ -49,9 +73,10 @@ namespace Mahjong
 		/// <returns>Returns a deep copy of this player.</returns>
 		public override Player<MahjongMove> Clone()
 		{
+			MahjongAIPlayer ret = new  MahjongAIPlayer(CardsInHand.Cards,AI);
+			ret.CopyData(this);
 
-
-			return null;
+			return ret;
 		}
 
 		/// <summary>

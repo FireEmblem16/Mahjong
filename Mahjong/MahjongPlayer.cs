@@ -14,6 +14,11 @@ namespace Mahjong
 	public interface MahjongPlayer
 	{
 		/// <summary>
+		/// Causes the player's wind to shift to the next direction.
+		/// </summary>
+		void RotateWind();
+
+		/// <summary>
 		/// Copies the data in the given player into this one.
 		/// </summary>
 		/// <param name="mp">The player data to copy.</param>
