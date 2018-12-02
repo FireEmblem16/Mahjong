@@ -11,11 +11,16 @@ namespace Mahjong
 	{
 		/// <summary>
 		/// Counts the number of fan in the given hand. This only works on completed hands.
+		/// Returns -1 if the melds do not form a valid hand.
 		/// </summary>
 		/// <param name="melds">The melds of the hand.</param>
 		/// <returns>Returns the fan of the provided hand.</returns>
 		public static int HandFan(List<MahjongMeld> melds)
 		{
+			// If we don't have a hand, abandon ship
+			if(!HasMahjong(new StandardHand(),melds))
+				return -1;
+
 
 
 			return -1;
@@ -47,6 +52,7 @@ namespace Mahjong
 				if(FormsMeld(hand))
 					return true;
 
+			// The other extreme is that the melds already contain everything and we need to make sure they're not batshit insane
 
 
 			return false;
@@ -61,14 +67,54 @@ namespace Mahjong
 		/// <returns>The best mahjong that can be formed from the given tiles or null if no mahjong can be formed.</returns>
 		public static List<MahjongMeld> BestMahjong(Hand hand, List<MahjongMeld> melds)
 		{
-			if(!HasMahjong(hand,melds))
-				return null;
+			List<MahjongMeld> ret = null;
+			int max = -1;
 
+			// Note that if the list is empty, we default to returning null as desired
+			foreach(List<MahjongMeld> mahjong in GetAllMahjongs(hand,melds))
+			{
+				int fan = HandFan(mahjong);
 
+				if(fan > max)
+				{
+					ret = mahjong;
+					max = fan;
+				}
+			}
 
-			return null;
+			return ret;
 		}
 		
+		/// <summary>
+		/// Gets all of the possible mahjong hands made from the given tiles.
+		/// </summary>
+		/// <param name="hand">The set of tiles free to make melds as desired.</param>
+		/// <param name="melds">The set of melds that cannot be changed.</param>
+		/// <returns>A list containing all available winning hands that can be made. The list is empty if no such hands exist.</returns>
+		public static List<List<MahjongMeld>> GetAllMahjongs(Hand hand, List<MahjongMeld> melds)
+		{
+			List<List<MahjongMeld>> ret = new List<List<MahjongMeld>>();
+			GetAllMahjongs(hand,melds,ret);
+
+			return ret;
+		}
+
+		/// <summary>
+		/// The recursive version of the GetAllMahjongs function.
+		/// </summary>
+		/// <param name="hand">The set of tiles free to make melds as desired.</param>
+		/// <param name="melds">The set of melds that cannot be changed.</param>
+		/// <param name="ret">The set to add new winning hands to.</param>
+		private static void GetAllMahjongs(Hand hand, List<MahjongMeld> melds, List<List<MahjongMeld>> ret)
+		{
+			if(!HasMahjong(hand,melds))
+				return;
+
+
+
+			return;
+		}
+
 		/// <summary>
 		/// Determines if the given tiles forms a chow, pong, or kong.
 		/// </summary>
