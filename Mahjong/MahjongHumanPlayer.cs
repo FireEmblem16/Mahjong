@@ -45,6 +45,7 @@ namespace Mahjong
 			}
 
 			// Melding takes a bit of work
+			// Note that if we're melding to declare mahjong, the meld is fixed and must happen, so we do it here always
 			if(m.Meld)
 			{
 				// First decide if we're upgrading a pung
@@ -52,7 +53,7 @@ namespace Mahjong
 
 				if(m.MeldTiles.Kong)
 					foreach(MahjongMeld meld in Melds)
-						if(meld.Cards.Contains(m.DiscardedTile))
+						if(meld.Pung && meld.Cards.Contains(m.DiscardedTile))
 						{
 							upgrade = true;
 							break;
@@ -82,17 +83,16 @@ namespace Mahjong
 					foreach(Card c in meld)
 						CardsInHand.PlayCard(c);
 				}
-
-				// If the player has no cards left in hand, then the mahjong is forced
-				// That said, if there are no cards left, then there's nothing left to update here
-				// The game state will have to catch the error if the mahjong flag wasn't properly raised
-				return true;
 			}
 
 			// If we have Mahjong, we need to put whatever is left of the player's hand into melds
+			// This can occur as a meld is declared, so we don't return early before to catch that case here
 			if(m.Mahjong)
 			{
+				List<MahjongMeld> mm = MahjongStaticFunctions.BestMahjong(CardsInHand,Melds);
 
+				if(mm != null) // This should always be the case, but let's be careful
+					Melds = mm;
 			}
 
 			return true;

@@ -31,7 +31,67 @@ namespace Mahjong
 		/// <returns>Returns true if the move is valid and false otherwise.</returns>
 		public override bool MakePlay(MahjongMove m)
 		{
+			// We assume that the move we're given is valid, so let's jump right in
+			if(m.Pass)
+				return true;
 
+			// Discarding is simple to deal with
+			if(m.Discard)
+			{
+				CardsInHand.PlayCard(m.DiscardedTile);
+				return true;
+			}
+
+			// Melding takes a bit of work
+			// Note that if we're melding to declare mahjong, the meld is fixed and must happen, so we do it here always
+			if(m.Meld)
+			{
+				// First decide if we're upgrading a pung
+				bool upgrade = false;
+
+				if(m.MeldTiles.Kong)
+					foreach(MahjongMeld meld in Melds)
+						if(meld.Pung && meld.Cards.Contains(m.DiscardedTile))
+						{
+							upgrade = true;
+							break;
+						}
+
+				if(upgrade)
+				{
+					// If we're adding to a pung to make a kong, we only need to play the tile we drew (and we HAVE to have drawn the tile from the wall)
+					CardsInHand.PlayCard(m.DiscardedTile);
+
+					// We do also have to update the meld we already have
+					foreach(MahjongMeld meld in Melds)
+						if(meld.ConvertToKong(m.DiscardedTile)) // This will eventually work and fail all other times
+							break;
+				}
+				else
+				{
+					// Add the meld
+					Melds.Add(m.MeldTiles.Clone());
+
+					// We're not expanding a pung, so we don't have to worry about that case now
+					List<Card> meld = new List<Card>(m.MeldTiles.Cards);
+
+					if(!m.ConcealedMeld) // If this is a concealed meld, then we drew the tile we're currently melding
+						meld.Remove(m.DiscardedTile); // We don't need to play the tile we don't technically have yet
+
+					foreach(Card c in meld)
+						CardsInHand.PlayCard(c);
+				}
+			}
+
+			// If we have Mahjong, we need to put whatever is left of the player's hand into melds
+			// This can occur as a meld is declared, so we don't return early before to catch that case here
+			if(m.Mahjong)
+			{
+				List<MahjongMeld> mm = MahjongStaticFunctions.BestMahjong(CardsInHand,Melds);
+
+				if(mm != null) // This should always be the case, but let's be careful
+					Melds = mm;
+			}
 
 			return true;
 		}

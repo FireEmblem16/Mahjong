@@ -149,6 +149,16 @@ namespace Mahjong
 			return;
 		}
 
+		/// <summary>
+		/// Hands all the logic necessary for a hand in which no one wins.
+		/// </summary>
+		protected void Goulash()
+		{
+
+
+			return;
+		}
+
 		protected bool AllMovesGathered()
 		{
 			for(int i = 0;i < 4;i++)

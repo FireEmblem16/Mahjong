@@ -10,7 +10,7 @@ namespace Mahjong
 	public static class MahjongStaticFunctions
 	{
 		/// <summary>
-		/// Counts the number of fan in the given hand.
+		/// Counts the number of fan in the given hand. This only works on completed hands.
 		/// </summary>
 		/// <param name="melds">The melds of the hand.</param>
 		/// <returns>Returns the fan of the provided hand.</returns>
@@ -44,7 +44,7 @@ namespace Mahjong
 			// Now that we have data we can mess with as much as we want, let's search for melds
 			// The easiest (and most unlikely) way to make a mahjong is to use 14 tiles in a special hand
 			if(hand.CardsInHand == 14) // This can only happen if there are no melds, so we don't have the edge case to worry about
-				if(new MahjongMeld(hand.Cards,true).Valid)
+				if(FormsMeld(hand))
 					return true;
 
 
@@ -69,6 +69,39 @@ namespace Mahjong
 			return null;
 		}
 		
+		/// <summary>
+		/// Determines if the given tiles forms a chow, pong, or kong.
+		/// </summary>
+		/// <param name="tiles">The set of tiles to meld.</param>
+		public static bool FormsCPK(Hand tiles)
+		{
+			if(tiles.CardsInHand < 3 || tiles.CardsInHand > 4)
+				return false; // The meld construction catches this, of course, but this is a quick and dirty yes/no
+
+			MahjongMeld m = new MahjongMeld(tiles.Cards);
+			return m.Chow || m.Pung || m.Kong;
+		}
+
+		/// <summary>
+		/// Determines if the given tiles forms an eye.
+		/// </summary>
+		/// <param name="tiles">The set of tiles to meld.</param>
+		public static bool FormsEye(Hand tiles)
+		{
+			if(tiles.CardsInHand != 2)
+				return false; // The meld construction catches this, of course, but this is a quick and dirty yes/no
+
+			MahjongMeld m = new MahjongMeld(tiles.Cards);
+			return m.Eye;
+		}
+
+		/// <summary>
+		/// Returns true if the provided tiles forms a meld.
+		/// </summary>
+		/// <param name="tiles">The set of tiles to make a meld of.</param>
+		public static bool FormsMeld(Hand tiles)
+		{return new MahjongMeld(tiles.Cards).Valid;}
+
 		/// <summary>
 		/// Creates a deep copy in the manner expected.
 		/// </summary>
