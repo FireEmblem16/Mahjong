@@ -49,13 +49,7 @@ namespace Mahjong
 				mp[i].Score = 0;
 				
 				// If a player has bonus tiles, we need to replace them
-				for(int j = 0;j < 13;j++)
-					if(players[i].CardsInHand.Cards[j].Suit.Color == SuitColor.BONUS)
-					{
-						mp[i].BonusTiles.DrawCard(players[i].CardsInHand.PlayCard(j));
-						players[i].CardsInHand.DrawCard(Deck.Draw());
-						j--;
-					}
+				RemoveBonusTiles(players[i],mp[i]);
 			}
 			
 			// Set the initial seat winds
@@ -66,18 +60,51 @@ namespace Mahjong
 			mp[3].SeatWind = SuitIdentifier.NORTH_WIND;
 
 			// Give east their first draw, and make sure the draw wasn't a bonus tile
+			DrawFromWall(players[0],mp[0]);
+
+			return;
+		}
+
+		/// <summary>
+		/// Removes all the bonus tiles from the player's hand AND replaces them.
+		/// </summary>
+		protected void RemoveBonusTiles(Player<MahjongMove> player, MahjongPlayer mp)
+		{
+			for(int i = 0;i < player.CardsInHand.CardsInHand;i++)
+				if(player.CardsInHand.Cards[i].Suit.Color == SuitColor.BONUS)
+				{
+					mp.BonusTiles.DrawCard(player.CardsInHand.PlayCard(i));
+					player.CardsInHand.DrawCard(Deck.Draw());
+					i--;
+				}
+
+			return;
+		}
+
+		/// <summary>
+		/// Draws a tile from the wall. Automatically replaces bonus tiles.
+		/// </summary>
+		protected bool DrawFromWall(Player<MahjongMove> player, MahjongPlayer mp)
+		{
+			if(Deck.CountDrawPile == 0)
+				return false;
+
 			Card c = Deck.Draw();
 
 			while(c.Suit.Color == SuitColor.BONUS)
 			{
-				mp[0].BonusTiles.DrawCard(c);
+				mp.BonusTiles.DrawCard(c);
+
+				if(Deck.CountDrawPile == 0)
+					return false; // It's okay to draw bonus tiles without ever getting a proper tile
+
 				c = Deck.Draw();
 			}
 
-			players[0].CardsInHand.DrawCard(c);
-			return;
+			player.CardsInHand.DrawCard(c);
+			return true;
 		}
-		
+
 		/// <summary>
 		/// Makes whatever changes are necessary to the game state by making the provided move.
 		/// </summary>
