@@ -9,7 +9,14 @@ namespace Mahjong
 	{
 		public static void Main(string[] args)
 		{
+			// Create the game
 			MahjongGameState state = new MahjongGameState();
+
+			// Add the AI
+
+
+			// Run the game to completion
+
 
 			return;
 		}

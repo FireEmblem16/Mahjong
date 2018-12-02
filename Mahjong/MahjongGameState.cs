@@ -183,7 +183,7 @@ namespace Mahjong
         public bool IsValid(MahjongMove move)
 		{
 			// First check if the move obeys basic game mechancis
-			// The below aren't exhaustive, probably, but they do cover most scenarios
+			// The below might not be comprehensive, which is a problem, but it definitely covers most scenarios
 
 			// The active player cannot pass
 			if(SubActivePlayer == ActivePlayer && move.Pass)
