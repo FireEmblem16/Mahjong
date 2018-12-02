@@ -18,12 +18,24 @@ namespace Mahjong
 		public static int HandFan(List<MahjongMeld> melds)
 		{
 			// If we don't have a hand, abandon ship
-			if(!HasMahjong(new StandardHand(),melds))
+			if(!IsMahjong(melds))
 				return -1;
 
 
 
 			return -1;
+		}
+
+		/// <summary>
+		/// Determines if the given melds form a winning hand.
+		/// </summary>
+		/// <param name="melds">The melds to use.</param>
+		/// <returns>Returns true if the given melds are a winning hand and false otherwise.</returns>
+		public static bool IsMahjong(List<MahjongMeld> melds)
+		{
+
+
+			return false;
 		}
 
 		/// <summary>
@@ -46,16 +58,8 @@ namespace Mahjong
 			if(tile != null)
 				h.DrawCard(tile.Clone());
 
-			// Now that we have data we can mess with as much as we want, let's search for melds
-			// The easiest (and most unlikely) way to make a mahjong is to use 14 tiles in a special hand
-			if(hand.CardsInHand == 14) // This can only happen if there are no melds, so we don't have the edge case to worry about
-				if(FormsMeld(hand))
-					return true;
-
-			// The other extreme is that the melds already contain everything and we need to make sure they're not batshit insane
-
-
-			return false;
+			// There's really not much runtime difference between finding A and finding ALL winning hands, but this is much easier to program
+			return GetAllMahjongs(h,m).Count > 0;
 		}
 
 		/// <summary>
@@ -111,6 +115,29 @@ namespace Mahjong
 				return;
 
 
+
+
+
+
+
+			/*
+			// Copy all the data so we don't clobber it
+			Hand h;
+			List<MahjongMeld> m;
+
+			CopyData(hand,melds,out h,out m);
+
+			if(tile != null)
+				h.DrawCard(tile.Clone());
+
+			// Now that we have data we can mess with as much as we want, let's search for melds
+			// The easiest (and most unlikely) way to make a mahjong is to use 14 tiles in a special hand
+			if(hand.CardsInHand == 14) // This can only happen if there are no melds, so we don't have the edge case to worry about
+				if(FormsMeld(hand))
+					return true;
+
+			// The other extreme is that the melds already contain everything and we need to make sure they're not batshit insane
+			 */
 
 			return;
 		}
