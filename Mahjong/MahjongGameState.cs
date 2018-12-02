@@ -90,13 +90,43 @@ namespace Mahjong
 				return false;
 
 			// Now add the move to our collection
+			player_moves[SubActivePlayer] = move;
+			SubActivePlayer = NextSubActivePlayer;
 
+			if(!AllMovesGathered())
+				return true;
 
-			// If we have all four sub moves ready, we can figure out which one (or ones, since the active player usually is discarding) takes priority
+			// We have all four sub moves ready, we can figure out which one (or ones, since the active player usually is discarding) takes priority
+			if(!player_moves[ActivePlayer].Discard)
+			{
+				// The player could be going out on their own draw here (and has THE highest priority possible) or melding
+				// The meld can only be affected by other players if it's a kong (although why the active player would want to meld otherwise is beyond me)
+				// If a meld occurs, then the active player will still need to discard, but a new tile will need to be drawn if the meld is a kong
 
+			}
 
-			//
+			// 
 			
+
+			return true;
+		}
+
+		/// <summary>
+		/// Handles all the logic necessary for a declaration of mahjong, including scoring and setting up the next round, and, if necessary, delcaring the game finished.
+		/// </summary>
+		/// <param name="player_index">The player declaring mahjong.</param>
+		protected void Mahjong(int player_index)
+		{
+
+
+			return;
+		}
+
+		protected bool AllMovesGathered()
+		{
+			for(int i = 0;i < 4;i++)
+				if(player_moves[i] == null)
+					return false;
 
 			return true;
 		}
