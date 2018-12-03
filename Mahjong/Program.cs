@@ -216,7 +216,7 @@ namespace Mahjong
 						htemp3.PlayCard(s.AvailableTile);
 						htemp3.PlayCard(s.AvailableTile);
 						htemp3.PlayCard(s.AvailableTile);
-					
+						
 						MahjongMeld m3 = new MahjongMeld(p3,false);
 						List<MahjongMeld> melds3 = new List<MahjongMeld>();
 
