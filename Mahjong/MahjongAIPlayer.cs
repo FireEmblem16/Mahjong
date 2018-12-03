@@ -17,7 +17,7 @@ namespace Mahjong
 		public MahjongAIPlayer(IEnumerable<Card> cards, AIBehavior<MahjongMove> behaviour) : base(cards,behaviour)
 		{
 			Score = 0;
-			BonusTiles = new StandardHand();
+			BonusTiles = new StandardHand(cards);
 
 			SeatWind = SuitIdentifier.EAST_WIND;
 			PrevailingWind = SuitIdentifier.EAST_WIND;

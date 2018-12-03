@@ -36,7 +36,7 @@ namespace Mahjong
 			MeldTiles = null;
 
 			Discard = false;
-			Mahjong = true;
+			Mahjong = mahjong;
 
 			return;
 		}

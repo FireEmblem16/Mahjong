@@ -93,6 +93,22 @@ namespace Engine.Cards.Hands
 		}
 
 		/// <summary>
+		/// Counts the number of instances of the given card are in the hand.
+		/// </summary>
+		/// <param name="c">The card to cound.</param>
+		/// <returns>Returns the number of occurances of the provided card or 0 if there are none.</returns>
+		public int CountCard(Card c)
+		{
+			int ret = 0;
+
+			foreach(Card cc in Cards)
+				if(cc.Equals(c))
+					ret++;
+
+			return ret;
+		}
+
+		/// <summary>
 		/// Moves the card at the specified index to the new specified location.
 		/// </summary>
 		/// <param name="index">The location of the card to move.</param>

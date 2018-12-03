@@ -19,7 +19,7 @@ namespace Mahjong
 		public MahjongHumanPlayer(IEnumerable<Card> cards) : base(cards)
 		{
 			Score = 0;
-			BonusTiles = new StandardHand();
+			BonusTiles = new StandardHand(cards);
 
 			SeatWind = SuitIdentifier.EAST_WIND;
 			PrevailingWind = SuitIdentifier.EAST_WIND;

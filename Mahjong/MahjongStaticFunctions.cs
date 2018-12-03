@@ -80,7 +80,7 @@ namespace Mahjong
 			bool ophans = true;
 			
 			foreach(MahjongMeld meld in cpk_melds) // Here we accept melds of ones and nines only
-				if(!meld.Pung && !meld.Kong && !ApproxEqual(meld.Cards[0].Value.MaxValue,1.0) && !ApproxEqual(meld.Cards[0].Value.MaxValue,9.0))
+				if(!meld.Pung && !meld.Kong || !ApproxEqual(meld.Cards[0].Value.MaxValue,1.0) && !ApproxEqual(meld.Cards[0].Value.MaxValue,9.0))
 					ophans = false;
 
 			if(ophans)
@@ -139,7 +139,7 @@ namespace Mahjong
 			bool mixed_ophans = true;
 			
 			foreach(MahjongMeld meld in cpk_melds) // Here we accept melds of honours, ones, and nines only
-				if(meld.Cards[0].Suit.Color != SuitColor.HONOURS && !meld.Pung && !meld.Kong && !ApproxEqual(meld.Cards[0].Value.MaxValue,1.0) && !ApproxEqual(meld.Cards[0].Value.MaxValue,9.0))
+				if(!meld.Pung && !meld.Kong || !ApproxEqual(meld.Cards[0].Value.MaxValue,1.0) && !ApproxEqual(meld.Cards[0].Value.MaxValue,9.0) && meld.Cards[0].Suit.Color != SuitColor.HONOURS)
 					mixed_ophans = false;
 
 			if(mixed_ophans)
@@ -383,7 +383,7 @@ namespace Mahjong
 
 				melds2.Add(meld);
 
-				if(IsMahjong(melds)) // It should be, but it's possible we were originally passed weird melds
+				if(IsMahjong(melds2)) // It should be, but it's possible we were originally passed weird melds
 					ret.Add(melds2);
 
 				return; // We have nothing further to do, so return
@@ -423,7 +423,7 @@ namespace Mahjong
 							temp.PlayCard(i);
 
 							// Go deeper
-							GetAllMahjongs(temp,melds);
+							GetAllMahjongs(temp,melds,ret);
 
 							// Remove the meld
 							melds.RemoveAt(melds.Count - 1);

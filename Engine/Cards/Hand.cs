@@ -40,6 +40,13 @@ namespace Engine.Cards
 		void DrawCards(IEnumerable<Card> cards);
 
 		/// <summary>
+		/// Counts the number of instances of the given card are in the hand.
+		/// </summary>
+		/// <param name="c">The card to cound.</param>
+		/// <returns>Returns the number of occurances of the provided card or 0 if there are none.</returns>
+		int CountCard(Card c);
+
+		/// <summary>
 		/// Moves the card at the specified index to the new specified location.
 		/// </summary>
 		/// <param name="index">The location of the card to move.</param>

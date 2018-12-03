@@ -256,8 +256,14 @@ namespace Mahjong
 
 			// Now add the move to our collection
 			player_moves[SubActivePlayer] = move;
-			SubActivePlayer = NextSubActivePlayer;
 
+			// If this is the first move collected, then the active player has to provide a tile in some manner (or declare mahjong)
+			if(ActivePlayer == SubActivePlayer)
+				AvailableTile = move.DiscardedTile == null ? null : move.DiscardedTile.Clone();
+
+			// Update the sub active player
+			SubActivePlayer = NextSubActivePlayer;
+			
 			if(!AllMovesGathered())
 				return true;
 
@@ -322,7 +328,9 @@ namespace Mahjong
 				// This should be mutually exclusive with melding for the active player, but we'll put it as only an if statement anyway just in case
 				if(active_move.Mahjong)
 				{
+					GetPlayer(ActivePlayer).MakePlay(active_move);
 					Mahjong(ActivePlayer);
+
 					return true;
 				}
 
@@ -343,14 +351,15 @@ namespace Mahjong
 			// First, let's handle the simple case where everyone passes
 			if(player_moves[GetNextPlayer(ActivePlayer,1)].Pass && player_moves[GetNextPlayer(ActivePlayer,2)].Pass && player_moves[GetNextPlayer(ActivePlayer,3)].Pass)
 			{
-				ActivePlayer = NextPlayer;
-				SubActivePlayer = ActivePlayer;
-
 				// Add the tile to the discard pile (we can only get here if the active player discards and no one takes it, and this is the only place where no one takes the tile or goes out)
 				Deck.Discard(player_moves[ActivePlayer].DiscardedTile);
 
+				// Update the active player
+				ActivePlayer = NextPlayer;
+				SubActivePlayer = ActivePlayer;
+
 				// The active player needs to draw a tile
-				if(!DrawFromWall(GetPlayer(ActivePlayer),GetPlayer(ActivePlayer) as MahjongPlayer,true))
+				if(!DrawFromWall(GetPlayer(ActivePlayer),GetPlayer(ActivePlayer) as MahjongPlayer))
 				{
 					Goulash(); // We ran out of tiles, so no one wins
 					return true;
@@ -370,7 +379,7 @@ namespace Mahjong
 						return false; // Something has gone horribly wrong
 
 					// End this hand
-					Mahjong(GetNextPlayer(ActivePlayer,i),true);
+					Mahjong(GetNextPlayer(ActivePlayer,i));
 					return true;
 				}
 
@@ -530,6 +539,7 @@ namespace Mahjong
 			for(int i = 0;i < 4;i++)
 				player_moves[i] = null;
 
+			AvailableTile = null;
 			return;
 		}
 
@@ -691,7 +701,7 @@ namespace Mahjong
 				if(ActivePlayer == 3)
 					return 0;
 				
-				return ActivePlayer++;
+				return ActivePlayer + 1;
 			}
 		}
 
@@ -711,7 +721,7 @@ namespace Mahjong
 				if(SubActivePlayer == 3)
 					return 0;
 				
-				return SubActivePlayer++;
+				return SubActivePlayer + 1;
 			}
 		}
 
@@ -746,7 +756,8 @@ namespace Mahjong
 		{get; protected set;}
 
 		/// <summary>
-		/// The tile that is currently being discarded or is available to be robbed from a kong
+		/// The tile that is currently being discarded or is available to be robbed from a kong.
+		/// This is null when the active player is the sub active player and when the active player declares mahjong.
 		/// </summary>
 		public Card AvailableTile
 		{get; protected set;}
