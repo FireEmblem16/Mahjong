@@ -47,5 +47,11 @@ namespace Mahjong
 		/// </summary>
 		SuitIdentifier SeatWind
 		{get; set;}
+
+		/// <summary>
+		/// This is totally coupling and bad, but it's here anyway. This is the current prevailing wind.
+		/// </summary>
+		SuitIdentifier PrevailingWind
+		{get; set;}
 	}
 }

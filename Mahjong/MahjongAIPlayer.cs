@@ -18,7 +18,9 @@ namespace Mahjong
 		{
 			Score = 0;
 			BonusTiles = new StandardHand();
+
 			SeatWind = SuitIdentifier.EAST_WIND;
+			PrevailingWind = SuitIdentifier.EAST_WIND;
 
 			Melds = new List<MahjongMeld>();
 			return;
@@ -87,7 +89,7 @@ namespace Mahjong
 			// This can occur as a meld is declared, so we don't return early before to catch that case here
 			if(m.Mahjong)
 			{
-				List<MahjongMeld> mm = MahjongStaticFunctions.BestMahjong(CardsInHand,Melds);
+				List<MahjongMeld> mm = MahjongStaticFunctions.BestMahjong(CardsInHand,Melds,SeatWind,PrevailingWind,m.SelfPick);
 
 				if(mm != null) // This should always be the case, but let's be careful
 					Melds = mm;
@@ -147,6 +149,7 @@ namespace Mahjong
 		{
 			Score = mp.Score;
 			SeatWind = mp.SeatWind;
+			PrevailingWind = mp.PrevailingWind;
 
 			while(BonusTiles.CardsInHand > 0)
 				BonusTiles.PlayCard(0);
@@ -182,6 +185,12 @@ namespace Mahjong
 		/// The current wind of the seat the player is at.
 		/// </summary>
 		public SuitIdentifier SeatWind
+		{get; set;}
+
+		/// <summary>
+		/// This is totally coupling and bad, but it's here anyway. This is the current prevailing wind.
+		/// </summary>
+		public SuitIdentifier PrevailingWind
 		{get; set;}
 	}
 }

@@ -26,6 +26,22 @@ namespace Mahjong
 		}
 
 		/// <summary>
+		/// A move that simply declares mahjong without any additional necessity.
+		/// Represents a self pick if the input is true. If false, then this move simply represents a pass.
+		/// </summary>
+		/// <param name="mahjong">If true, then mahjong is declared. If false, this move is a simple pass.</param>
+		public MahjongMove(bool mahjong)
+		{
+			DiscardedTile = null;
+			MeldTiles = null;
+
+			Discard = false;
+			Mahjong = true;
+
+			return;
+		}
+
+		/// <summary>
 		/// Creates a new discard move.
 		/// </summary>
 		/// <param name="discard">The tile being discarded.</param>
@@ -81,6 +97,7 @@ namespace Mahjong
 		
 		/// <summary>
 		/// The tile being discarded, added to a pung to form a kong, stolen from the discard, or a representative of a melded concealed kong.
+		/// This value MUST be null if declaring mahjong on a self pick.
 		/// </summary>
 		public Card DiscardedTile
 		{get; set;}
@@ -153,5 +170,14 @@ namespace Mahjong
 		/// </summary>
 		public bool Mahjong
 		{get; set;}
+
+		/// <summary>
+		/// If true, then this move is a self pick.
+		/// </summary>
+		public bool SelfPick
+		{
+			get
+			{return Mahjong && DiscardedTile == null;}
+		}
 	}
 }
