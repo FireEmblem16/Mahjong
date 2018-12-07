@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Engine.Cards;
 using Engine.Cards.CardTypes;
 using Engine.Cards.CardTypes.Suits.Mahjong;
@@ -307,8 +308,14 @@ namespace Mahjong
             MahjongPlayer mp = ai as MahjongPlayer;
 
             Moves possibleMoves = new Moves(s);
+
+            MahjongMove bestMove = null; // change this
+            double bestScoreAvg = double.MinValue;
+
             foreach (MahjongMove move in possibleMoves)
             {
+                //List<int> scoresToAverage = new List<int>();
+                System.Collections.Generic.List<int> scoresToAverage = new System.Collections.Generic.List<int>();
                 for (int x = 0; x < 200; x++)
                 { // simulate x many hands
                     MahjongGameState sim_state = s.Clone() as MahjongGameState;
@@ -319,11 +326,17 @@ namespace Mahjong
                             Console.WriteLine("An invalid move has been provided.");
                     }
                     // After each simulated game finishes, save Player's final score
-                    // scoresToAverage <-- (sim_state.GetPlayer(Player) as MahjongPlayer).Score;
+                    scoresToAverage.Add((sim_state.GetPlayer(Player) as MahjongPlayer).Score);
+                }
+                double avg = scoresToAverage.Average();
+                if (avg > bestScoreAvg)
+                {
+                    bestScoreAvg = avg;
+                    bestMove = move;
                 }
             }
 
-            return /* argmax avgScores */;
+            return bestMove;
         }
 
         public int Player
@@ -343,10 +356,44 @@ namespace Mahjong
 
             if (state.SubActivePlayer == state.ActivePlayer)
             {
-                // add kong move
-                // add discard move
+                // 1) add kong move:
+                Hand hhTemp1 = new StandardHand(currentAi.CardsInHand.Cards);
+                Deck wall = state.Deck.Clone();
+                Card topCard = wall.Draw(); // the top tile in the wall (or card in deck)
+                List<Card> possibleKong = new List<Card>();
+                possibleKong.Add(topCard);
+                possibleKong.Add(topCard);
+                possibleKong.Add(topCard);
+                possibleKong.Add(topCard);
 
-                // add go-out move:
+                // count how many tiles same as AvailableTile are in the player's hand
+                int countInHand = 0;
+
+                Hand hTemp3 = new StandardHand(currentAi.CardsInHand.Cards);
+                for (int i = 0; i < 3; i++)
+                {
+                    if (hTemp3.PlayCard(state.AvailableTile) != null)
+                        countInHand++;
+                }
+
+                if (countInHand == 3)
+                {
+                    MahjongMeld m3 = new MahjongMeld(possibleKong, false);
+                    List<MahjongMeld> melds3 = new List<MahjongMeld>();
+
+                    foreach (MahjongMeld m33 in currentMp.Melds)
+                        melds3.Add(m33.Clone());
+
+                    _moves.Add(new MahjongMove(m3, state.AvailableTile, MahjongStaticFunctions.HasMahjong(hTemp3, melds3)));
+                }
+
+                // 2) add random-discard move:
+                int seed = DateTime.Now.Millisecond;
+                Random rand = new Random(seed);
+                int r = rand.Next(0, (int)currentAi.CardsInHand.CardsInHand);
+                _moves.Add(new MahjongMove(currentAi.CardsInHand.Cards[r]));
+
+                // 3) add go-out move:
                 if (MahjongStaticFunctions.HasMahjong(currentAi.CardsInHand, currentMp.Melds))
                     _moves.Add(new MahjongMove(true));
             }
@@ -354,13 +401,137 @@ namespace Mahjong
             {
                 if (state.SubActivePlayer == state.NextPlayer)
                 {
-                    // add chaw move
-                }
-                // add pung move
-                // add kong move
-                // add pass move
+                    //// 1) add chow move:
+                    Hand hTemp1 = new StandardHand(currentAi.CardsInHand.Cards);
+                    Card formingStraight = state.AvailableTile.Clone();
 
-                // add go-out move:
+                    Card TargetCard2Before = null;
+                    Card TargetCard1Before = null;
+                    Card TargetCard1After = null;
+                    Card TargetCard2After = null;
+
+                    foreach (Card card in hTemp1.Cards)
+                    {
+                        if (formingStraight.Suit.Equals(state.AvailableTile.Suit.Clone()))
+                            if (ApproxEqual(formingStraight.Value.MaxValue - 2, card.Value.MaxValue))
+                                TargetCard2Before = card; // no need to clone, as per StandardHand's doc (to my understanding)
+                            else if (ApproxEqual(formingStraight.Value.MaxValue - 1, card.Value.MaxValue))
+                                TargetCard1Before = card;
+                            else if (ApproxEqual(formingStraight.Value.MaxValue + 1, card.Value.MaxValue))
+                                TargetCard1After = card;
+                            else if (ApproxEqual(formingStraight.Value.MaxValue + 2, card.Value.MaxValue))
+                                TargetCard2After = card;
+                    } // account for corner cases?
+
+                    if ((TargetCard2Before != null) && (TargetCard1Before != null))
+                    {
+                        List<Card> Chow = new List<Card>();
+                        Chow.Add(TargetCard2Before.Clone());
+                        Chow.Add(TargetCard1Before.Clone());
+                        Chow.Add(formingStraight.Clone());
+
+                        MahjongMeld m1 = new MahjongMeld(Chow, false);
+                        List<MahjongMeld> melds1 = new List<MahjongMeld>();
+
+                        foreach (MahjongMeld m11 in currentMp.Melds)
+                            melds1.Add(m11.Clone());
+
+                        _moves.Add(new MahjongMove(m1, state.AvailableTile, MahjongStaticFunctions.HasMahjong(hTemp1, melds1)));
+                    }
+
+                    if ((TargetCard1Before != null) && (TargetCard1After != null))
+                    {
+                        List<Card> Chow = new List<Card>();
+                        Chow.Add(TargetCard1Before.Clone());
+                        Chow.Add(formingStraight.Clone());
+                        Chow.Add(TargetCard1After.Clone());
+
+                        MahjongMeld m1_2 = new MahjongMeld(Chow, false);
+                        List<MahjongMeld> melds1_2 = new List<MahjongMeld>();
+
+                        foreach (MahjongMeld m11_2 in currentMp.Melds)
+                            melds1_2.Add(m11_2.Clone());
+
+                        _moves.Add(new MahjongMove(m1_2, state.AvailableTile, MahjongStaticFunctions.HasMahjong(hTemp1, melds1_2)));
+                    }
+
+                    if ((TargetCard1After != null) && (TargetCard2After != null))
+                    {
+                        List<Card> Chow = new List<Card>();
+                        Chow.Add(formingStraight.Clone());
+                        Chow.Add(TargetCard1After.Clone());
+                        Chow.Add(TargetCard2After.Clone());
+
+                        MahjongMeld m1_3 = new MahjongMeld(Chow, false);
+                        List<MahjongMeld> melds1_3 = new List<MahjongMeld>();
+
+                        foreach (MahjongMeld m11_3 in currentMp.Melds)
+                            melds1_3.Add(m11_3.Clone());
+
+                        _moves.Add(new MahjongMove(m1_3, state.AvailableTile, MahjongStaticFunctions.HasMahjong(hTemp1, melds1_3)));
+                    }
+
+                }
+
+                //// 2) add pung move:
+                List<Card> possiblePung = new List<Card>();
+                possiblePung.Add(state.AvailableTile.Clone());
+                possiblePung.Add(state.AvailableTile.Clone());
+                possiblePung.Add(state.AvailableTile.Clone());
+
+                // count how many tiles same as AvailableTile are in the player's hand
+                int countInHand = 0;
+
+                Hand hTemp2 = new StandardHand(currentAi.CardsInHand.Cards);
+                for (int i = 0; i < 2; i++)
+                {
+                    if (hTemp2.PlayCard(state.AvailableTile) != null)
+                        countInHand++;
+                }
+
+                if (countInHand == 2)
+                {
+                    MahjongMeld m2 = new MahjongMeld(possiblePung, false);
+                    List<MahjongMeld> melds2 = new List<MahjongMeld>();
+
+                    foreach (MahjongMeld m22 in currentMp.Melds)
+                        melds2.Add(m22.Clone());
+
+                    _moves.Add(new MahjongMove(m2, state.AvailableTile, MahjongStaticFunctions.HasMahjong(hTemp2, melds2)));
+                }
+
+                //// 3) add kong move:
+                List<Card> possibleKong3 = new List<Card>();
+                possibleKong3.Add(state.AvailableTile.Clone());
+                possibleKong3.Add(state.AvailableTile.Clone());
+                possibleKong3.Add(state.AvailableTile.Clone());
+                possibleKong3.Add(state.AvailableTile.Clone());
+
+                // count how many tiles same as AvailableTile are in the player's hand
+                countInHand = 0;
+
+                Hand hTemp3 = new StandardHand(currentAi.CardsInHand.Cards);
+                for (int i=0; i<3; i++)
+                {
+                    if (hTemp3.PlayCard(state.AvailableTile) != null)
+                        countInHand++;
+                }
+                
+                if (countInHand == 3)
+                {
+                    MahjongMeld m3 = new MahjongMeld(possibleKong3, false);
+                    List<MahjongMeld> melds3 = new List<MahjongMeld>();
+
+                    foreach (MahjongMeld m33 in currentMp.Melds)
+                        melds3.Add(m33.Clone());
+
+                    _moves.Add(new MahjongMove(m3, state.AvailableTile, MahjongStaticFunctions.HasMahjong(hTemp3, melds3)));
+                }
+
+                //// 4) add pass move:
+                _moves.Add(new MahjongMove());
+                
+                //// 5) add go-out move:
                 if (MahjongStaticFunctions.HasMahjong(currentAi.CardsInHand, currentMp.Melds))
                     _moves.Add(new MahjongMove(true));
             }
@@ -379,6 +550,8 @@ namespace Mahjong
 
         public MahjongMove GetRandomMove()
         {
+            if (_moves.Count == 1)
+                return _moves[0]; // save time
             Random rnd = new Random();
             int r = rnd.Next(_moves.Count);
             return _moves[r];
@@ -388,6 +561,9 @@ namespace Mahjong
         {
             return new MovesEnum(_moves);
         }
+
+        protected bool ApproxEqual(double d1, double d2, double epsilon = 0.0001)
+        { return Math.Abs(d1 - d2) < epsilon; }
     }
 
     public class MovesEnum : IEnumerator<MahjongMove>

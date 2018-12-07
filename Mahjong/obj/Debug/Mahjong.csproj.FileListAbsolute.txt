@@ -9,3 +9,8 @@ C:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Mahjong\bin\Debug\E
 C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\bin\Debug\Mahjong.exe.config
 C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\obj\Debug\Mahjong.exe
 C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\obj\Debug\Mahjong.pdb
+C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\bin\Debug\Mahjong.exe
+C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\bin\Debug\Mahjong.pdb
+C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\bin\Debug\Engine.dll
+C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\bin\Debug\Engine.pdb
+C:\Users\tseki\Documents\GitHub\Mahjong\Mahjong\obj\Debug\Mahjong.csprojResolveAssemblyReference.cache

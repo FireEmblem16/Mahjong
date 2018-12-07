@@ -3,3 +3,8 @@ c:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Engine\bin\Debug\En
 c:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
 c:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Engine\obj\Debug\Engine.dll
 c:\Users\forth\documents\visual studio 2015\Projects\Mahjong\Engine\obj\Debug\Engine.pdb
+C:\Users\tseki\Documents\GitHub\Mahjong\Engine\bin\Debug\Engine.dll
+C:\Users\tseki\Documents\GitHub\Mahjong\Engine\bin\Debug\Engine.pdb
+C:\Users\tseki\Documents\GitHub\Mahjong\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\tseki\Documents\GitHub\Mahjong\Engine\obj\Debug\Engine.dll
+C:\Users\tseki\Documents\GitHub\Mahjong\Engine\obj\Debug\Engine.pdb
