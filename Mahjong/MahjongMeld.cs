@@ -87,8 +87,6 @@ namespace Mahjong
 				// Now we need the tiles 1112345678999 and one extra
 				temp = new StandardHand(Cards);
 				string[] value_names = {"One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
-
-				temp.SortByValue();
 				
 				// Check if all the cards are there by brute force
 				for(int i = 1;i < 10;i++)
@@ -207,6 +205,22 @@ namespace Mahjong
 		}
 
 		/// <summary>
+		/// Returns the meld tiles in a list.
+		/// </summary>
+		public override string ToString()
+		{
+			if(!Valid)
+				return "[]";
+
+			string ret = "[" + Cards[0];
+
+			for(int i = 1;i < CardsInHand;i++)
+				ret += ", " + Cards[i];
+			
+			return ret + "]";
+		}
+
+		/// <summary>
 		/// True if this is a valid meld and false otherwise.
 		/// </summary>
 		public bool Valid
@@ -214,7 +228,7 @@ namespace Mahjong
 			get
 			{return Chow || Pung || Kong || Eye || ThirteenOrphans || NineGates || SevenPair;}
 		}
-
+		
 		/// <summary>
 		/// True if this meld is a chow.
 		/// </summary>
@@ -247,6 +261,7 @@ namespace Mahjong
 
 		/// <summary>
 		/// True if this is a meld of nine gates (plus its fourteenth tile to win).
+		/// Must be completely concealed.
 		/// </summary>
 		public bool NineGates
 		{get; protected set;}

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TheGame.AI.ABP
+namespace Engine.Player.AI.ABP
 {
 	/// <summary>
 	/// Performs an alpha-beta search.
 	/// </summary>
-	/// <typeparam name="S">The type of action to be taken.</typeparam>
-	/// <typeparam name="T">The type of state to be evaluated.</typeparam>
-	public static class AlphaBetaPruner<A,S>
+	/// <typeparam name="S">The type of state to be evaluated.</typeparam>
+	/// <typeparam name="A">The type of action to be taken.</typeparam>
+	public static class AlphaBetaPruner<S,A>
 	{
 		/// <summary>
 		/// Given a state and a maximum search depth, this performs a search using the alpha-beta algorithm to find the optimal action to take.
@@ -55,7 +55,7 @@ namespace TheGame.AI.ABP
 			do
 			{
 				// Check out how good the current action is
-				int val = RSearch(state,updater(state,actions.Current),max_depth - 1,state_hueristic,action_enumerator,updater,maximising,best_val,int.MaxValue);
+				int val = RSearch(updater(state,actions.Current),max_depth - 1,state_hueristic,action_enumerator,updater,maximising,best_val,int.MaxValue);
 
 				// If the current action is trash, ignore it
 				if(val < best_val)
@@ -83,7 +83,6 @@ namespace TheGame.AI.ABP
 		/// <summary>
 		/// Given a state and a maximum search depth, this performs a recursive search using the alpha-beta algorithm to find the optimal action to take.
 		/// </summary>
-		/// <param name="init">The initial state.</param>
 		/// <param name="state">The current state.</param>
 		/// <param name="max_depth">The maximum number of sequential actions that may be taken.</param>
 		/// <param name="state_hueristic">The means of determining how good a state is.</param>
@@ -93,7 +92,7 @@ namespace TheGame.AI.ABP
 		/// <param name="alpha">The best maximisation value so far.</param>
 		/// <param name="beta">The best minimisation value so far.</param>
 		/// <returns>Returns the value of the optimal action to take in the given state.</returns>
-		private static int RSearch(S init, S state, int depth, StateEvaluator<S> state_hueristic, ActionEnumerator<A,S> action_enumerator, ActionApplier<A,S> updater, Maximising<S> maximising, int alpha, int beta)
+		private static int RSearch(S state, int depth, StateEvaluator<S> state_hueristic, ActionEnumerator<A,S> action_enumerator, ActionApplier<A,S> updater, Maximising<S> maximising, int alpha, int beta)
 		{
 			// If we've reached our terminal depth, evaluate and return
 			if(depth == 0)
@@ -106,13 +105,13 @@ namespace TheGame.AI.ABP
 			if(!actions.MoveNext())
 				return state_hueristic(state);
 			
-			if(maximising(init,state))
+			if(maximising(state))
 			{
 				int max = int.MinValue;
 
 				do
 				{
-					max = Math.Max(max,RSearch(init,updater(state,actions.Current),depth - 1,state_hueristic,action_enumerator,updater,maximising,alpha,beta));
+					max = Math.Max(max,RSearch(updater(state,actions.Current),depth - 1,state_hueristic,action_enumerator,updater,maximising,alpha,beta));
 					alpha = alpha > max ? alpha : max;
 
 					if(alpha >= beta)
@@ -127,7 +126,7 @@ namespace TheGame.AI.ABP
 
 			do
 			{
-				min = Math.Min(min,RSearch(init,updater(state,actions.Current),depth - 1,state_hueristic,action_enumerator,updater,maximising,alpha,beta));
+				min = Math.Min(min,RSearch(updater(state,actions.Current),depth - 1,state_hueristic,action_enumerator,updater,maximising,alpha,beta));
 				beta = beta < min ? beta : min;
 
 				if(alpha >= beta)
@@ -175,8 +174,7 @@ namespace TheGame.AI.ABP
 	/// Determines if the minimax algorithm should be minimising or maximising in the given state.
 	/// </summary>
 	/// <typeparam name="S">The type of state.</typeparam>
-	/// <param name="initial_state">The initial state which is assume to represent the maximising player.</param>
 	/// <param name="current_state">The current state</param>
 	/// <returns>True if the algorithm should maximise and false otherwise</returns>
-	public delegate bool Maximising<S>(S initial_state, S current_state);
+	public delegate bool Maximising<S>(S current_state);
 }

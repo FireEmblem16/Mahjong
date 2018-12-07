@@ -447,7 +447,7 @@ namespace Mahjong
 				// East won, so we have a bonus hand
 				BonusHand++;
 
-				if(BonusHand >= MaxBonusHand)
+				if(BonusHand > MaxBonusHand)
 				{
 					BonusHand = 0;
 					Hand++;
@@ -501,7 +501,7 @@ namespace Mahjong
 			BonusHand++;
 
 			// Check if there have been too many bonus hands
-			if(BonusHand >= MaxBonusHand)
+			if(BonusHand > MaxBonusHand)
 			{
 				BonusHand = 0;
 				Hand++;
@@ -585,6 +585,15 @@ namespace Mahjong
 			return temp.MakePlay(move);
 		}
 
+		/// <summary>
+		/// For AI purposes, this function exists to toggle the HandFinished property off. Use it wisely.
+		/// </summary>
+		public void StartHand()
+		{
+			HandFinished = false;
+			return;
+		}
+
         /// <summary>
 		/// Gets the player with the specified index between 0 and 3 inclusive.
 		/// Note that the player returned will also be of type MahjongPlayer.
@@ -646,13 +655,15 @@ namespace Mahjong
 			MahjongGameState ret = new MahjongGameState();
 
 			ret.ActivePlayer = ActivePlayer;
+			ret.SubActivePlayer = SubActivePlayer;
+
 			ret.Deck = Deck.Clone();
 			
 			ret.Hand = Hand;
 			ret.BonusHand = BonusHand;
 
 			ret.HandFinished = HandFinished;
-			ret.AvailableTile = AvailableTile.Clone();
+			ret.AvailableTile = (AvailableTile == null ? null : AvailableTile.Clone());
 
 			ret.OnReplacement = OnReplacement;
 			ret.Heavenly = Heavenly;
@@ -661,7 +672,7 @@ namespace Mahjong
 			for(int i = 0;i < 4;i++)
 			{
 				ret.players[i] = players[i].Clone();
-				ret.player_moves[i] = player_moves[i].Clone();
+				ret.player_moves[i] = (player_moves[i] == null ? null : player_moves[i].Clone());
 			}
 
 			return ret;
@@ -824,7 +835,7 @@ namespace Mahjong
 		public uint MaxBonusHand
 		{
 			get
-			{return 16;}
+			{return 0;}//15;}
 		}
 
 		/// <summary>

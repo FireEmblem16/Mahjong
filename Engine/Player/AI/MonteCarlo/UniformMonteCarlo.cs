@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Engine.Player.AI.MonteCarlo
 {
 	/// <summary>
 	/// Performs a uniformly weighted monte carlo search.
 	/// </summary>
-	/// <typeparam name="S">The type of action to be taken.</typeparam>
-	/// <typeparam name="T">The type of state to be evaluated.</typeparam>
-	public static class UniformMonteCarloSearch<A,S>
+	/// <typeparam name="S">The type of state to be evaluated.</typeparam>
+	/// <typeparam name="A">The type of action to be taken.</typeparam>
+	public static class UniformMonteCarloSearch<S,A>
 	{
 		/// <summary>
 		/// Given a start state, performs a random sampling of it to terminal states and determines which available action is best to take.
@@ -47,17 +44,33 @@ namespace Engine.Player.AI.MonteCarlo
 				expected_values.Add(Explore(updater(cloner(state),a),samples,cloner,action_enumerator,updater,state_hueristic));
 
 			// Find the best action
-			int max = 0;
-			A best = actions[0];
+			int max = expected_values[0];
+
+			List<A> best = new List<A>();
+			best.Add(actions[0]);
 
 			for(int i = 1;i < expected_values.Count;i++)
 				if(expected_values[i] > max)
 				{
 					max = expected_values[i];
-					best = actions[i];
-				}
 
-			return best;
+					best.Clear();
+					best.Add(actions[i]);
+				}
+				else if(expected_values[i] == max)
+					best.Add(actions[i]);
+			
+			return best[rand.Next(0,best.Count)];
+		}
+
+		/// <summary>
+		/// Assigns the RNG.
+		/// </summary>
+		/// <param name="r">The random number generator to use.</param>
+		public static void AssignRNG(Random r)
+		{
+			rand = r;
+			return;
 		}
 
 		/// <summary>
@@ -138,7 +151,7 @@ namespace Engine.Player.AI.MonteCarlo
 	public delegate IEnumerator<A> ActionEnumerator<A,S>(S state);
 
 	/// <summary>
-	/// Takes a state and an action and applies the action to the state (without altering the original state data).
+	/// Takes a state and an action and applies the action to the state (the original state data may be altered).
 	/// </summary>
 	/// <typeparam name="A">The type of action.</typeparam>
 	/// <typeparam name="S">The type of state.</typeparam>

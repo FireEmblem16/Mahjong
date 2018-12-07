@@ -90,6 +90,36 @@ namespace Mahjong
 		}
 
 		/// <summary>
+		/// Turns this move into a readable string representation.
+		/// The format is such that a string such as 'Player n ' + ToString() + '.' would make sense.
+		/// </summary>
+		public override string ToString()
+		{
+			if(Discard)
+				return "discards a " + DiscardedTile;
+
+			if(Pass)
+				return "passes";
+
+			if(SelfPick)
+				return "declares mahjong on a self pick";
+
+			if(Meld)
+			{
+				if(Chow)
+					return "attempts to meld a chow using " + DiscardedTile + " to create " + MeldTiles + (Mahjong ? " and declares mahjong " : "");
+				else if(Pung)
+					return "attempts to meld a pung using " + DiscardedTile + " to create " + MeldTiles + (Mahjong ? " and declares mahjong " : "");
+				else if(Kong)
+					return "attempts to meld a kong using " + DiscardedTile + " to create " + MeldTiles + (Mahjong ? " and declares mahjong " : "");
+				else
+					return "attempts to declare mahjong using " + DiscardedTile + " to create " + MeldTiles;
+			}
+
+			return "destroyed space and time to play an invalid move";
+		}
+
+		/// <summary>
 		/// True is this is a discarding move as opposed to a meld.
 		/// </summary>
 		public bool Discard

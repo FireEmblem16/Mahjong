@@ -469,7 +469,7 @@ namespace Mahjong
 		/// <summary>
 		/// Creates a deep copy in the manner expected.
 		/// </summary>
-		private static void CopyData(Hand hand, List<MahjongMeld> melds, out Hand h, out List<MahjongMeld> m)
+		public static void CopyData(Hand hand, List<MahjongMeld> melds, out Hand h, out List<MahjongMeld> m)
 		{
 			h = new StandardHand(hand.Cards);
 			m = new List<MahjongMeld>();

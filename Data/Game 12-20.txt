@@ -1,0 +1,7243 @@
+Minimax Search Depth: 12
+Monte Carlo Sample Size: 20
+
+Final Scores
+------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+Game Log
+--------
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI attempts to meld a chow using Two of Bamboo to create [One of Bamboo, Two of Bamboo, Three of Bamboo].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using Seven of Bamboo to create [Seven of Bamboo, Seven of Bamboo, Seven of Bamboo].
+NaiveAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI attempts to meld a pung using One of Characters to create [One of Characters, One of Characters, One of Characters].
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using One of Dots to create [One of Dots, One of Dots, One of Dots].
+NaiveAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using West Wind to create [West Wind, West Wind, West Wind].
+NaiveAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Five of Dots to create [Five of Dots, Five of Dots, Five of Dots].
+MinimaxAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Dots.
+MinimaxAI attempts to meld a chow using Seven of Dots to create [Seven of Dots, Eight of Dots, Nine of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Nine of Characters to create [Nine of Characters, Nine of Characters, Nine of Characters].
+MinimaxAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI attempts to meld a chow using Eight of Characters to create [Six of Characters, Seven of Characters, Eight of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI attempts to meld a kong using West Wind to create [West Wind, West Wind, West Wind, West Wind].
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI attempts to meld a chow using Two of Characters to create [Two of Characters, Three of Characters, Four of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a North Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI attempts to meld a pung using Four of Bamboo to create [Four of Bamboo, Four of Bamboo, Four of Bamboo].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI attempts to meld a chow using Six of Characters to create [Four of Characters, Five of Characters, Six of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI attempts to meld a chow using Eight of Characters to create [Six of Characters, Seven of Characters, Eight of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using White Dragon to create [White Dragon, White Dragon, White Dragon].
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI attempts to meld a chow using One of Bamboo to create [One of Bamboo, Two of Bamboo, Three of Bamboo].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MonteCarloAI discards a Five of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using Five of Characters to create [Five of Characters, Five of Characters, Five of Characters].
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI attempts to meld a chow using Three of Dots to create [One of Dots, Two of Dots, Three of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using Red Dragon to create [Red Dragon, Red Dragon, Red Dragon].
+MonteCarloAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI attempts to meld a pung using Eight of Dots to create [Eight of Dots, Eight of Dots, Eight of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI attempts to meld a pung using Seven of Dots to create [Seven of Dots, Seven of Dots, Seven of Dots].
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI attempts to meld a chow using Five of Characters to create [Four of Characters, Five of Characters, Six of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI attempts to meld a chow using Two of Dots to create [One of Dots, Two of Dots, Three of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using Five of Bamboo to create [Five of Bamboo, Five of Bamboo, Five of Bamboo].
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI attempts to meld a chow using Five of Characters to create [Four of Characters, Five of Characters, Six of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI attempts to meld a pung using Nine of Dots to create [Nine of Dots, Nine of Dots, Nine of Dots].
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI attempts to meld a chow using Six of Dots to create [Four of Dots, Five of Dots, Six of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Nine of Bamboo to create [Nine of Bamboo, Nine of Bamboo, Nine of Bamboo].
+MinimaxAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI attempts to meld a chow using Four of Bamboo to create [Two of Bamboo, Three of Bamboo, Four of Bamboo].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI attempts to meld a chow using Four of Characters to create [Four of Characters, Five of Characters, Six of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI attempts to meld a chow using One of Dots to create [One of Dots, Two of Dots, Three of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using North Wind to create [North Wind, North Wind, North Wind].
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI attempts to meld a chow using Eight of Characters to create [Six of Characters, Seven of Characters, Eight of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI attempts to meld a chow using Five of Characters to create [Three of Characters, Four of Characters, Five of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a North Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using One of Dots to create [One of Dots, One of Dots, One of Dots].
+MinimaxAI passes.
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI attempts to meld a kong using Eight of Dots to create [Eight of Dots, Eight of Dots, Eight of Dots, Eight of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using One of Dots to create [One of Dots, One of Dots, One of Dots].
+MonteCarloAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI attempts to meld a chow using Three of Characters to create [Three of Characters, Four of Characters, Five of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI attempts to meld a chow using Two of Characters to create [One of Characters, Two of Characters, Three of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI attempts to meld a kong using One of Dots to create [One of Dots, One of Dots, One of Dots, One of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Seven of Characters to create [Seven of Characters, Seven of Characters, Seven of Characters].
+MinimaxAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Three of Dots to create [Three of Dots, Three of Dots, Three of Dots].
+MinimaxAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Seven of Dots to create [Seven of Dots, Seven of Dots, Seven of Dots].
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI attempts to meld a chow using One of Characters to create [One of Characters, Two of Characters, Three of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Nine of Characters to create [Nine of Characters, Nine of Characters, Nine of Characters].
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI attempts to meld a pung using Three of Dots to create [Three of Dots, Three of Dots, Three of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using Six of Bamboo to create [Six of Bamboo, Six of Bamboo, Six of Bamboo].
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using Four of Characters to create [Four of Characters, Four of Characters, Four of Characters].
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a North Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a North Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI attempts to meld a chow using Two of Bamboo to create [Two of Bamboo, Three of Bamboo, Four of Bamboo].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using West Wind to create [West Wind, West Wind, West Wind].
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI attempts to meld a chow using Eight of Characters to create [Six of Characters, Seven of Characters, Eight of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI attempts to meld a chow using Two of Dots to create [Two of Dots, Three of Dots, Four of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using East Wind to create [East Wind, East Wind, East Wind].
+MinimaxAI passes.
+
+GreedyAI discards a Seven of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI attempts to meld a chow using Six of Dots to create [Five of Dots, Six of Dots, Seven of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using One of Bamboo to create [One of Bamboo, One of Bamboo, One of Bamboo].
+NaiveAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI attempts to meld a pung using Eight of Characters to create [Eight of Characters, Eight of Characters, Eight of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using Nine of Dots to create [Nine of Dots, Nine of Dots, Nine of Dots].
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Seven of Dots to create [Seven of Dots, Seven of Dots, Seven of Dots].
+MinimaxAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI attempts to meld a chow using Seven of Bamboo to create [Five of Bamboo, Six of Bamboo, Seven of Bamboo].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI attempts to meld a chow using Two of Dots to create [Two of Dots, Three of Dots, Four of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Three of Bamboo to create [Three of Bamboo, Three of Bamboo, Three of Bamboo].
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Seven of Characters to create [Seven of Characters, Seven of Characters, Seven of Characters].
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI attempts to meld a chow using Two of Dots to create [One of Dots, Two of Dots, Three of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using Four of Characters to create [Four of Characters, Four of Characters, Four of Characters].
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a West Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI attempts to meld a chow using Two of Characters to create [One of Characters, Two of Characters, Three of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a North Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI attempts to meld a pung using Six of Dots to create [Six of Dots, Six of Dots, Six of Dots].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+GreedyAI discards a Seven of Characters.
+MinimaxAI attempts to meld a chow using Seven of Characters to create [Seven of Characters, Eight of Characters, Nine of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI attempts to meld a chow using Two of Characters to create [One of Characters, Two of Characters, Three of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Dots.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Three of Dots to create [Three of Dots, Three of Dots, Three of Dots].
+MinimaxAI passes.
+
+GreedyAI discards a Green Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI attempts to meld a pung using Two of Bamboo to create [Two of Bamboo, Two of Bamboo, Two of Bamboo].
+MonteCarloAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a South Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI attempts to meld a chow using Three of Characters to create [Three of Characters, Four of Characters, Five of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Green Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a East Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a North Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a South Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Bamboo.
+MonteCarloAI attempts to meld a chow using Six of Bamboo to create [Five of Bamboo, Six of Bamboo, Seven of Bamboo].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MinimaxAI discards a Six of Bamboo.
+MonteCarloAI attempts to meld a chow using Six of Bamboo to create [Five of Bamboo, Six of Bamboo, Seven of Bamboo].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Nine of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a White Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI attempts to meld a chow using Two of Bamboo to create [Two of Bamboo, Three of Bamboo, Four of Bamboo].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Red Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a South Wind.
+GreedyAI attempts to meld a kong using South Wind to create [South Wind, South Wind, South Wind, South Wind].
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Bamboo.
+MinimaxAI passes.
+MonteCarloAI attempts to meld a pung using Nine of Bamboo to create [Nine of Bamboo, Nine of Bamboo, Nine of Bamboo].
+NaiveAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI attempts to meld a pung using Seven of Characters to create [Seven of Characters, Seven of Characters, Seven of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Green Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI attempts to meld a chow using Two of Characters to create [Two of Characters, Three of Characters, Four of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a West Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a North Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Two of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Eight of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a East Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a West Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+Hand Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Red Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI attempts to meld a chow using Eight of Characters to create [Seven of Characters, Eight of Characters, Nine of Characters].
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a White Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Dots.
+MonteCarloAI attempts to meld a pung using Five of Dots to create [Five of Dots, Five of Dots, Five of Dots].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Seven of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Red Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Three of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a White Dragon.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Six of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Four of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Three of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a North Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Four of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Nine of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI attempts to meld a pung using Nine of Bamboo to create [Nine of Bamboo, Nine of Bamboo, Nine of Bamboo].
+
+GreedyAI discards a Two of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Two of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Red Dragon.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Seven of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Green Dragon.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Two of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a West Wind.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a One of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Dots.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Eight of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a White Dragon.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a East Wind.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a One of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a One of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Four of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Six of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Five of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Dots.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Two of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a East Wind.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Characters.
+MonteCarloAI attempts to meld a chow using Five of Characters to create [Four of Characters, Five of Characters, Six of Characters].
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Nine of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Three of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Eight of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Five of Bamboo.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Five of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Seven of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Nine of Characters.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Six of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Characters.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Dots.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Four of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a South Wind.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a One of Bamboo.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Six of Bamboo.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+GreedyAI discards a Seven of Bamboo.
+MinimaxAI passes.
+MonteCarloAI passes.
+NaiveAI passes.
+
+MinimaxAI discards a Three of Characters.
+MonteCarloAI passes.
+NaiveAI passes.
+GreedyAI passes.
+
+MonteCarloAI discards a Eight of Dots.
+NaiveAI passes.
+GreedyAI passes.
+MinimaxAI passes.
+
+NaiveAI discards a Five of Characters.
+GreedyAI passes.
+MinimaxAI passes.
+MonteCarloAI passes.
+
+Game Finished!
+--------------
+NaiveAI's Score: 0
+GreedyAI's Score: 0
+MinimaxAI's Score: 0
+MonteCarloAI's Score: 0
