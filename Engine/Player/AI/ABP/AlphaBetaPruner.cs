@@ -147,10 +147,10 @@ namespace TheGame.AI.ABP
 	/// <summary>
 	/// Takes a state and turns it into a number representing how good it is.
 	/// </summary>
-	/// <typeparam name="T">The type of the state to evaluate.</typeparam>
+	/// <typeparam name="S">The type of the state to evaluate.</typeparam>
 	/// <param name="state">The state to evaluate.</param>
 	/// <returns>Returns an integer representing the 'goodness' of the state. Higher values are superior, and negative values are very bad.</returns>
-	public delegate int StateEvaluator<T>(T state);
+	public delegate int StateEvaluator<S>(S state);
 
 	/// <summary>
 	/// Takes a state and enumerates the available actions in it.
