@@ -103,7 +103,7 @@ namespace Engine.Player.AI.MonteCarlo
 				return state_hueristic(state);
 
 			// Pick a random action and proceed further
-			return RSearch(updater(state,actions[rand.Next(0,actions.Count)]),action_enumerator,updater,state_hueristic);
+			return PlayToCompletion(updater(state,actions[rand.Next(0,actions.Count)]),action_enumerator,updater,state_hueristic);
 		}
 
 		/// <summary>
