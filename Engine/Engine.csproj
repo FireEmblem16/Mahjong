@@ -82,7 +82,7 @@
     <Compile Include="Player\AI\DecisionTree\Selector.cs" />
     <Compile Include="Player\AI\DecisionTree\Sequencer.cs" />
     <Compile Include="Player\AI\DecisionTree\Thinker.cs" />
-    <Compile Include="Player\AI\MonteCarlo\MonteCarlo.cs" />
+    <Compile Include="Player\AI\MonteCarlo\UniformMonteCarlo.cs" />
     <Compile Include="Player\AI\StandardAI.cs" />
     <Compile Include="Player\Player.cs" />
     <Compile Include="Player\StandardPlayer.cs" />
